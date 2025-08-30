@@ -1,0 +1,257 @@
+
+body{
+    background-color: #fff;
+}
+.breadCrum{
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #565656;
+
+}
+.productDisplay{
+    min-height: 100%;
+    padding: 10px 20px;
+    display: flex;
+}
+.productDImage{
+     display: flex;
+     gap: 10px;
+}
+.productIcon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.productIcon img{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+.productDDetails{
+    margin: 0 30px;
+
+}
+.productTitle{
+    font-size: 25px;
+
+}
+.brandStore{
+margin-top: 5px;
+color: #007185;
+font-size: 14px;
+
+}
+.productRating{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.productRating div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.productRating p {
+    color: #007185;
+}
+.productRating p span{
+    color: #fff;
+    background:#c73500 ;
+    padding: 2px 50px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.productRating h5{
+    font-weight: 400;
+
+}
+.productDPrice{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.productDPrice div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.productDPrice div span{
+font-weight: bold;
+font-size: 40px;
+}
+.productDPrice div p{
+    font-size: 26px;
+    color: #c73500;
+
+}
+.productDPrice div h1{
+    font-size: 26px;
+    font-weight: 500;
+}
+.productDPrice div h5{
+    font-size: 26px;
+    font-weight: 400;
+}
+.productDPrice h5 span{
+    text-decoration: line-through;
+
+}
+.productDPrice p span{
+    color: #007185;
+}
+.productDPrice b{
+    background-color: rgba(216, 215, 215, 0.702);
+    color: black;
+}
+.productColorSelection{
+    margin: 15px 0;
+}
+.productColorOptions{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;   
+    border: 1px solid #cbcbcb;
+    gap: 10px;
+}
+.productInfo{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width:300px ;
+    margin-bottom: 15px;
+}
+.productDescription{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.productDescription ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30px;
+}
+.productDPurchse{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid #c1c1c1;
+    border-radius:10px ;
+    padding: 20px;
+}
+.productDPurchse .title{
+    display: flex;justify-content: space-between;
+    align-items: center;
+}
+.productDPurchse .price{
+    font-size: 16px ;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.productDPurchse .price span{
+    font-size: 26px;
+    padding: 2px;
+}
+.productDPurchse .gap{
+    margin: 15px 0;
+}
+.productDPurchse p span{
+    color: #007185;
+}
+.deliveryLocation{
+    display: flex;
+    align-items: center;
+    gap: 3px;  
+}
+.productStock{
+    margin: 15px 0;
+    color: green;
+    font-weight: 400; 
+}
+.productQuantity{
+    padding: 8px 5px;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    background: #efefef;
+    border-color: #c1c1c1;
+}
+.productDPurchse .btn{
+    outline: none;
+    border: none;
+    background: #ffd814;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.productDPurchse .ProductBuy{
+    background: #ffa41c;
+
+}
+.productSelerInfo{
+margin-top: 10px;
+display: grid;
+grid-template-columns: auto auto;
+gap: 4px;
+font-size: 14px;
+color: #565656;
+
+}
+.productSelerInfo span{
+    color: #007185;
+
+}
+.productDPurchse hr{
+    margin: 20px 0;
+
+}
+.productAddList{
+    width: 100%;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    text-align: start;
+    background: white;
+    cursor: pointer;
+}
+
+/* media query */
+@media screen and (max-width: 900px){
+    .productDisplay{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 900px){
+    .productIcon{
+        display: none;
+    }
+    .productMainImgAge img{
+        width: 100%;
+        padding: 20px;
+    }
+    .option{
+        padding: 6px 8px;
+
+    }
+    .option p{
+        display: none;
+    }
+    .productDPurchse{
+        max-width: 90%;
+        margin: 20px auto 10px;
+        
+    }
+}
+
+
+
+
+
